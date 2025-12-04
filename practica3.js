@@ -1,0 +1,11 @@
+use("bd_py");
+db.Moto.deleteOne({Modelo: "RC 390"});
+db.Moto.deleteOne({Modelo: "RSV4 Factory"});
+db.Carros.deleteOne({Modelo: "Mustang Dark Horse"});
+db.Carros.deleteOne({Modelo: "SF90 Stradale"});
+db.Laptos.deleteOne({Modelo: "Swift X 14"});
+db.Laptos.deleteOne({Modelo: "Razer Blade 18"});
+db.Celulares.deleteOne({Modelo: "OnePlus 13"});
+db.Celulares.deleteOne({Modelo: "Edge 60 Pro"});
+db.Programas.deleteOne({Modelo: "Adobe Creative Cloud"});
+db.Programas.deleteOne({Modelo: "Zoom"});
